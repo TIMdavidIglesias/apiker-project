@@ -1,5 +1,5 @@
 {
-  "name": "ak-proj",
+  "name": "apiker-project",
   "version": "1.0.2",
   "description": "",
   "repository": "https://github.com/TIMdavidIglesias/apiker-project",
@@ -11,7 +11,7 @@
     "copy-templates": "cp -r src/templates dist/templates"
   },
   "bin": {
-    "ak-proj": "dist/index.js"
+    "apiker-project": "dist/index.js"
   },
   "author": "",
   "license": "ISC",
