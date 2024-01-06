@@ -1,0 +1,29 @@
+{
+  "name": "ak-proj",
+  "version": "1.0.2",
+  "description": "",
+  "repository": "https://github.com/TIMdavidIglesias/apiker-project",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc -p tsconfig.json && npm run copy-templates",
+    "copy-templates": "cp -r src/templates dist/templates"
+  },
+  "bin": {
+    "ak-proj": "dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.10.6",
+    "@types/yargs": "^17.0.32"
+  }
+}
